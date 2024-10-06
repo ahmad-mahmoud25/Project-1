@@ -83,8 +83,13 @@ header {
 
 /* Blog Post */
 
+.all-blog-post{
+    width: 50%;
+    background-color: #000;
+}
+
 .blog-post {
-    width: 100%;
+    background-color: #5c5757;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -135,10 +140,14 @@ h2 {
 
 .main-side {
     display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
 }
 
+
+/* Post Archive */
 .post-archives-tags {
-    height: 60%;
+    width: 30%;
     margin-right: 20px;
     padding: 20px;
     background-color: #ddd;
