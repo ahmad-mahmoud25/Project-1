@@ -83,15 +83,15 @@ header {
 
 /* Blog Post */
 
-.all-blog-post{
-    width: 50%;
-    background-color: #000;
+.all-blog-post {
+    width: 70%;
+    padding: 20px 20px;
 }
 
 .blog-post {
-    background-color: #5c5757;
     max-width: 800px;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -140,14 +140,14 @@ h2 {
 
 .main-side {
     display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
 }
 
 
 /* Post Archive */
 .post-archives-tags {
     width: 30%;
+    position: fixed;
+    right: 0;
     margin-right: 20px;
     padding: 20px;
     background-color: #ddd;
