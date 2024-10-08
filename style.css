@@ -120,6 +120,7 @@ h2 {
 }
 
 .thumbnail {
+    display: flex;
     width: 100%;
     height: 200px;
     background-color: #ddd;
@@ -132,22 +133,37 @@ h2 {
     object-fit: cover;
 }
 
+.excerpt {
+    padding: 10px;
+    overflow: auto;
+}
+
+.read-more-div {
+    width: 100%;
+    text-align: right;
+}
+
 .read-more {
     display: inline-block;
+    border: #000 solid;
+    padding: 0px 10px;
+    color: #000;
+    box-shadow: 2px 5px 0px #000;
     margin-top: 10px;
     text-decoration: none;
 }
 
 .main-side {
     display: flex;
+    justify-content: center;
 }
 
 
 /* Post Archive */
 .post-archives-tags {
     width: 30%;
-    position: fixed;
-    right: 0;
+    height: 40%;
+    float: right;
     margin-right: 20px;
     padding: 20px;
     background-color: #ddd;
@@ -164,4 +180,106 @@ h2 {
 
 .num-ul li a {
     color: rgb(0, 153, 255);
+}
+
+.post-tags p span{
+    font-size: 2em;
+}
+
+.post-tags p h{
+    color: red;
+}
+
+/* Search input */
+
+.search {
+    margin: 10px 5px;
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 28px;
+    background-color: #f6f6f6;
+    outline: solid #000;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #333333;
+    margin-left: 14px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+}
+
+.older-posts{
+    margin: 30px 20px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.older-posts-button{
+    
+
+    display: block;
+    font-size: 30px;
+}
+
+.footer-text-sign-up{
+    width: 100%;
+    padding: 60px 120px;
+}
+
+/* footer links */
+
+.more-links{
+    background-color: #808080;
+    padding: 20px;
+    border: solid #000;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column a {
+    color: #2465a6;
+    text-decoration: none;
+    margin: 8px 0;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+.back-to-top {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-to-top a {
+    color: #2465a6;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.back-to-top a:hover {
+    text-decoration: underline;
 }
